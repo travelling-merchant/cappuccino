@@ -48,4 +48,14 @@ ln -s ~/cappuccino/config/hypr/hyprland.conf ~/.config/hypr/hyprland.conf
 ln -s ~/cappuccino/config/hypr/hyprlock.conf ~/.config/hypr/hyprlock.conf
 ln -s ~/cappuccino/config/hypr/hyprpaper.conf ~/.config/hypr/hyprpaper.conf
 
+ln -s ~/cappuccino/config/nvim/README.md ~/.config/nvim/README.md
+ln -s ~/cappuccino/config/nvim/init.lua ~/.config/nvim/init.lua
+ln -s ~/cappuccino/config/nvim/lazy-lock.json ~/.config/nvim/lazy-lock.json
+ln -s ~/cappuccino/config/nvim/doc/kickstart.txt ~/.config/nvim/doc/kickstart.txt
+ln -s ~/cappuccino/config/nvim/doc/tags ~/.config/nvim/doc/tags
+ln -s ~/cappuccino/config/nvim/lua/custom/plugins/init.lua ~/.config/nvim/lua/custom/plugins/init.lua
+ln -s ~/cappuccino/config/nvim/lua/kickstart/health.lua ~/.config/nvim/lua/kickstart/health.lua
+ln -s ~/cappuccino/config/nvim/lua/kickstart/plugins/debug.lua ~/.config/nvim/lua/kickstart/plugins/debug.lua
+ln -s ~/cappuccino/config/nvim/lua/kickstart/plugins/indent_line.lua ~/.config/nvim/lua/kickstart/plugins/indent_line.lua
+ln -s ~/cappuccino/config/nvim/lua/kickstart/plugins/lint.lua ~/.config/nvim/lua/kickstart/plugins/lint.lua
 ```
