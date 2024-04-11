@@ -7,6 +7,7 @@ A wild chaos of incomplete dotfiles, casue lazy :)
 ```bash
 sudo pacman -S
 kitty
+wofi
 neofetch
 waybar
 hyprland
@@ -21,6 +22,7 @@ nautilus
 
 ```bash
 mkdir ~/.config/kitty
+mkdir ~/.config/wofi
 mkdir ~/.config/hypr
 mkdir ~/.config/waybar
 mkdir ~/.config/nvim
@@ -41,6 +43,8 @@ So for every file we have to create links
 ```bash
 ln -s ~/cappucino/.bashrc ~/.bashrc
 ln -s ~/cappuccino/config/kitty/kitty.conf ~/.config/kitty/kitty.conf
+
+ln-s ~/cappuccino/config/wofi/style.css ~/.config/wofi/style.css
 
 ln -s ~/cappuccino/config/waybar/style.css ~/.config/waybar/style.css
 ln -s ~/cappuccino/config/waybar/config.jsonc ~/.config/waybar/config.jsonc

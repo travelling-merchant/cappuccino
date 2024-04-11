@@ -1,0 +1,19 @@
+window{
+	margin:6px;
+	border:1px solid #ededed;
+	background-color:rgba(0,0,0,0.7);
+	font-family:sans-serif;
+	color:pink;
+}
+#outer-box{
+margin:20px;
+}
+#inner-box{
+margin:0px;
+}
+#input{
+margin:5px;
+}
+#entry:selected{
+background-color:rgba(112,123,124,0.9);
+}
