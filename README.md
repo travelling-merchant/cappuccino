@@ -6,16 +6,28 @@ A wild chaos of incomplete dotfiles, casue lazy :)
 
 ```bash
 sudo pacman -S
+vim
+git
 kitty
 wofi
+pulseaudio
+firefox
 neofetch
 waybar
 hyprland
 hyprlock
 hyprpaper
+# grim and slurp are for the hyprland ctrl s mod screenshot needed for now
 grim
 slurp
 nautilus
+obsidian
+cifs-utils
+steam
+discord
+nvim
+calibre
+obs-studio
 ```
 
 ## We have to create paths first for the files if they don't exist
