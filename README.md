@@ -44,6 +44,13 @@ mkdir ~/.config/nvim/lua/custom
 mkdir ~/.config/nvim/lua/custom/plugins
 mkdir ~/.config/nvim/lua/kickstart
 mkdir ~/.config/nvim/lua/kickstart/plugins
+mkdir ~/.themes
+mkdir ~/.themes/spirit_blossom
+mkdir ~/.themes/spirit_blossom
+mkdir ~/.themes/spirit_blossom/gtk-2.0
+mkdir ~/.themes/spirit_blossom/gtk-3.0
+mkdir ~/.themes/spirit_blossom/gtk-4.0
+
 ```
 
 ## Important!! (set up symlinks)
@@ -74,4 +81,8 @@ ln -s ~/cappuccino/config/nvim/lua/kickstart/health.lua ~/.config/nvim/lua/kicks
 ln -s ~/cappuccino/config/nvim/lua/kickstart/plugins/debug.lua ~/.config/nvim/lua/kickstart/plugins/debug.lua
 ln -s ~/cappuccino/config/nvim/lua/kickstart/plugins/indent_line.lua ~/.config/nvim/lua/kickstart/plugins/indent_line.lua
 ln -s ~/cappuccino/config/nvim/lua/kickstart/plugins/lint.lua ~/.config/nvim/lua/kickstart/plugins/lint.lua
+
+ln -s ~/cappuccino/themes/spirit_blossom/gtk-2.0/gtk.css ~/.themes/spirit_blossom/gtk-2.0/gtk.css
+ln -s ~/cappuccino/themes/spirit_blossom/gtk-3.0/gtk.css ~/.themes/spirit_blossom/gtk-3.0/gtk.css
+ln -s ~/cappuccino/themes/spirit_blossom/gtk-4.0/gtk.css ~/.themes/spirit_blossom/gtk-4.0/gtk.css
 ```
