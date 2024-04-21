@@ -63,7 +63,7 @@ So for every file we have to create links
 ln -s ~/cappucino/.bashrc ~/.bashrc
 ln -s ~/cappuccino/config/kitty/kitty.conf ~/.config/kitty/kitty.conf
 
-ln-s ~/cappuccino/config/wofi/style.css ~/.config/wofi/style.css
+ln -s ~/cappuccino/config/wofi/style.css ~/.config/wofi/style.css
 
 ln -s ~/cappuccino/config/waybar/style.css ~/.config/waybar/style.css
 ln -s ~/cappuccino/config/waybar/config.jsonc ~/.config/waybar/config.jsonc
