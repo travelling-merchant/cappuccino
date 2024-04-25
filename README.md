@@ -85,4 +85,7 @@ ln -s ~/cappuccino/config/nvim/lua/kickstart/plugins/lint.lua ~/.config/nvim/lua
 ln -s ~/cappuccino/themes/spirit_blossom/gtk-2.0/gtk.css ~/.themes/spirit_blossom/gtk-2.0/gtk.css
 ln -s ~/cappuccino/themes/spirit_blossom/gtk-3.0/gtk.css ~/.themes/spirit_blossom/gtk-3.0/gtk.css
 ln -s ~/cappuccino/themes/spirit_blossom/gtk-4.0/gtk.css ~/.themes/spirit_blossom/gtk-4.0/gtk.css
+
+# this file is to set the selected gtk theme 🎶
+ln -s ~/cappuccino/themes/settings.ini ~/.config/gtk-3.0/settings.ini
 ```
