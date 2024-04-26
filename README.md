@@ -37,13 +37,13 @@ mkdir ~/.config/kitty
 mkdir ~/.config/wofi
 mkdir ~/.config/hypr
 mkdir ~/.config/waybar
-mkdir ~/.config/nvim
-mkdir ~/.config/nvim/doc
-mkdir ~/.config/nvim/lua
-mkdir ~/.config/nvim/lua/custom
-mkdir ~/.config/nvim/lua/custom/plugins
-mkdir ~/.config/nvim/lua/kickstart
-mkdir ~/.config/nvim/lua/kickstart/plugins
+# mkdir ~/.config/nvim
+# mkdir ~/.config/nvim/doc
+# mkdir ~/.config/nvim/lua
+# mkdir ~/.config/nvim/lua/custom
+# mkdir ~/.config/nvim/lua/custom/plugins
+# mkdir ~/.config/nvim/lua/kickstart
+# mkdir ~/.config/nvim/lua/kickstart/plugins
 mkdir ~/.themes
 mkdir ~/.themes/spirit_blossom
 mkdir ~/.themes/spirit_blossom
@@ -71,16 +71,6 @@ ln -s ~/cappuccino/config/hypr/hyprland.conf ~/.config/hypr/hyprland.conf
 ln -s ~/cappuccino/config/hypr/hyprlock.conf ~/.config/hypr/hyprlock.conf
 ln -s ~/cappuccino/config/hypr/hyprpaper.conf ~/.config/hypr/hyprpaper.conf
 
-ln -s ~/cappuccino/config/nvim/README.md ~/.config/nvim/README.md
-ln -s ~/cappuccino/config/nvim/init.lua ~/.config/nvim/init.lua
-ln -s ~/cappuccino/config/nvim/lazy-lock.json ~/.config/nvim/lazy-lock.json
-ln -s ~/cappuccino/config/nvim/doc/kickstart.txt ~/.config/nvim/doc/kickstart.txt
-ln -s ~/cappuccino/config/nvim/doc/tags ~/.config/nvim/doc/tags
-ln -s ~/cappuccino/config/nvim/lua/custom/plugins/init.lua ~/.config/nvim/lua/custom/plugins/init.lua
-ln -s ~/cappuccino/config/nvim/lua/kickstart/health.lua ~/.config/nvim/lua/kickstart/health.lua
-ln -s ~/cappuccino/config/nvim/lua/kickstart/plugins/debug.lua ~/.config/nvim/lua/kickstart/plugins/debug.lua
-ln -s ~/cappuccino/config/nvim/lua/kickstart/plugins/indent_line.lua ~/.config/nvim/lua/kickstart/plugins/indent_line.lua
-ln -s ~/cappuccino/config/nvim/lua/kickstart/plugins/lint.lua ~/.config/nvim/lua/kickstart/plugins/lint.lua
 
 ln -s ~/cappuccino/themes/spirit_blossom/gtk-2.0/gtk.css ~/.themes/spirit_blossom/gtk-2.0/gtk.css
 ln -s ~/cappuccino/themes/spirit_blossom/gtk-3.0/gtk.css ~/.themes/spirit_blossom/gtk-3.0/gtk.css
