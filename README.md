@@ -78,4 +78,5 @@ ln -s ~/cappuccino/themes/spirit_blossom/gtk-4.0/gtk.css ~/.themes/spirit_blosso
 
 # this file is to set the selected gtk theme 🎶
 ln -s ~/cappuccino/themes/settings.ini ~/.config/gtk-3.0/settings.ini
+ln -s ~/cappuccino/config/hyfetch/hyfetch.json ~/.config/hyfetch.json
 ```
