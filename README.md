@@ -12,7 +12,7 @@ kitty
 wofi
 pulseaudio
 firefox
-neofetch
+hyfetch
 waybar
 hyprland
 hyprlock
@@ -28,6 +28,13 @@ discord
 nvim
 calibre
 obs-studio
+```
+### optional software
+
+```bash
+sudo pacman -S
+bottom
+asciiquarium
 ```
 
 ## We have to create paths first for the files if they don't exist
