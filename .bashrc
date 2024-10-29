@@ -5,6 +5,7 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 #bash ~/cappuccino/scripts/neo_conditional.sh
+alias vi=vim
 hyfetch
 # Set up fzf key bindings and fuzzy completion
 eval "$(fzf --bash)"
