@@ -11,15 +11,13 @@ git
 kitty
 starship
 wofi
-pulseaudio
+pulseaudio [//]: # there is a better thing but I forgot the name
 firefox
 hyfetch
-waybar
 hyprland
 hyprlock
 hyprpaper
-# grim and slurp are for the hyprland ctrl s mod screenshot needed for now
-grim
+grim [//]: # grim and slurp are for the hyprland ctrl s mod screenshot needed for now
 slurp
 nautilus
 obsidian
@@ -34,6 +32,7 @@ obs-studio
 
 ```bash
 sudo pacman -S
+waybar [//]: # who needs a bar, thos it bloat
 bottom
 asciiquarium
 ```
